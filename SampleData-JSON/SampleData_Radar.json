@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "Key": "t1",
+            "group":2005,
+            "Value": 650
+        },
+        {
+            "Key": "t1",
+            "group":2006,
+            "Value": 500
+        },
+        {
+            "Key": "t1",
+            "group":2007,
+            "Value": 450
+        },
+        {
+            "Key": "t1",
+            "group":2008,
+            "Value": 300
+        },
+        {
+            "Key": "t1",
+            "group":2009,
+            "Value": 220
+        },
+        {
+            "Key": "t1",
+            "group":2010,
+            "Value": 750
+        }
+    ]
+}

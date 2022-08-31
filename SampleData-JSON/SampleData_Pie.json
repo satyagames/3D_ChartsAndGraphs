@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "block": "block 1",
+            "percent": 497.00
+        },
+        {
+            "block": "block 1",
+            "percent": 530.00
+        },
+        {
+            "block": "block 2",
+            "percent": 612.00
+        },
+        {
+            "block": "block 3",
+            "percent": 569.00
+        },
+        {
+            "block": "block 4",
+            "percent": 313.00
+        },
+        {
+            "block": "block 5",
+            "percent": 120.00
+        },
+        {
+            "block": "block 6",
+            "percent": 410.00
+        },
+        {
+            "block": "block 7",
+            "percent": 750.00
+        },
+        {
+            "block": "block 8",
+            "percent": 1020.00
+        }
+    ]
+}
