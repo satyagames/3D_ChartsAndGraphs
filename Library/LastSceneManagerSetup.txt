@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Aultix/Scene/3D Bar.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

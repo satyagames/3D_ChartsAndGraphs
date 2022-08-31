@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6034596955070748584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6034596955070748590}
+  - component: {fileID: 6034596955070748591}
+  - component: {fileID: 6034596955070748589}
+  - component: {fileID: 6034596955070748588}
+  - component: {fileID: 6034596955070748579}
+  - component: {fileID: 1157748101181217511}
+  m_Layer: 0
+  m_Name: Pie3d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6034596955070748590
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034596955070748584}
+  m_LocalRotation: {x: 0.77632076, y: 0.11458301, z: -0.19558442, w: 0.5881697}
+  m_LocalPosition: {x: 1.6884885, y: 0.85238576, z: 0.82851315}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 106.657, y: 36.099, z: 10.485992}
+--- !u!114 &6034596955070748591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034596955070748584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604c11209e1fa2f48bda9776a02fec86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mPreviewObject: {fileID: 0}
+  OnRedraw:
+    m_PersistentCalls:
+      m_Calls: []
+  keepOrthoSize: 0
+  paperEffectText: 0
+  vRSpaceText: 0
+  vRSpaceScale: 0.1
+  maintainLabelSize: 0
+  PieClicked:
+    m_PersistentCalls:
+      m_Calls: []
+  PieHovered:
+    m_PersistentCalls:
+      m_Calls: []
+  NonHovered:
+    m_PersistentCalls:
+      m_Calls: []
+  meshSegements: 20
+  startAngle: -125.2
+  angleSpan: 360
+  spacingAngle: 0.03
+  radius: 4.2
+  torusRadius: 0.03
+  extrusion: 0.15
+  Data:
+    mCategories: []
+    mGroups:
+    - Pie
+    mData: []
+  clockWise: 0
+  textCamera: {fileID: 0}
+  textIdleDistance: 20
+  innerDepth: 0
+  outerDepth: 0.81
+  prefab: {fileID: 1000013455260608, guid: 1d40184080f97954f8b89b8534fb95fb, type: 3}
+--- !u!114 &6034596955070748589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034596955070748584}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eb3e26fd06b41d4baa022120f5cd617, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textPrefab: {fileID: 0}
+  textFormat:
+    prefix: 
+    suffix: 
+    customFormat: 
+  fontSize: 38
+  fontSharpness: 3
+  seperation: 2.04
+  location:
+    Breadth: 0
+    Depth: 0
+  alignment: 1
+  fractionDigits: 0
+--- !u!114 &6034596955070748588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034596955070748584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a90fab185f83f4bb1b1df9f16c7732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimateOnStart: 1
+  AnimateOnEnable: 1
+  AnimateSpan: 360
+  AnimationTime: 2
+  Curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &6034596955070748579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034596955070748584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683c1c28d013cce4c9128c952dbdca81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textPrefab: {fileID: 11436712, guid: f80216d9fb498d54ba0ce490da342fee, type: 3}
+  textFormat:
+    prefix: 
+    suffix: 
+    customFormat: 
+  fontSize: 40
+  fontSharpness: 1
+  seperation: 0.86
+  location:
+    Breadth: 0
+    Depth: 0
+  alignment: 0
+  visibleLabels: 0
+--- !u!114 &1157748101181217511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034596955070748584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd6ae4a70956414d853318136501d6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pieChart: {fileID: 6034596955070748591}
+  graphMaterial:
+  - {fileID: 2100000, guid: 48a6ae5bfc2b12c4180d445aeadaaeb2, type: 2}
+  - {fileID: 2100000, guid: 82a9b707a839aed45a05920c1aa1d010, type: 2}
+  - {fileID: 2100000, guid: c559bfe949072474f86c94e8fc12f689, type: 2}
+  - {fileID: 2100000, guid: 3661f88f32f42114295487870088084a, type: 2}
+  - {fileID: 2100000, guid: fa4f640f15aac9849bb3b71be3cf91f3, type: 2}
+  - {fileID: 2100000, guid: bf3305bf3cf22e647aa713f83beeed5d, type: 2}
+  - {fileID: 2100000, guid: 80226e5e57d271645aa3a8d8e9d0935e, type: 2}
+  - {fileID: 2100000, guid: 6e2d9fc4e74fc7f40aff9ec727c08752, type: 2}
